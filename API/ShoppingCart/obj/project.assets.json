@@ -4201,11 +4201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yashika\\source\\repos\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj",
+      "projectUniqueName": "C:\\Users\\Yashika\\gitRepo\\shopping-\\API\\ShoppingCart\\ShoppingCart.csproj",
       "projectName": "ShoppingCart",
-      "projectPath": "C:\\Users\\Yashika\\source\\repos\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj",
+      "projectPath": "C:\\Users\\Yashika\\gitRepo\\shopping-\\API\\ShoppingCart\\ShoppingCart.csproj",
       "packagesPath": "C:\\Users\\Yashika\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yashika\\source\\repos\\ShoppingCart\\ShoppingCart\\obj\\",
+      "outputPath": "C:\\Users\\Yashika\\gitRepo\\shopping-\\API\\ShoppingCart\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yashika\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4222,11 +4222,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Yashika\\source\\repos\\ShoppingCart\\CartDataAccessLayer\\CartDataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Yashika\\source\\repos\\ShoppingCart\\CartDataAccessLayer\\CartDataAccessLayer.csproj"
+            "C:\\Users\\Yashika\\gitRepo\\shopping-\\API\\CartDataAccessLayer\\CartDataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Yashika\\gitRepo\\shopping-\\API\\CartDataAccessLayer\\CartDataAccessLayer.csproj"
             },
-            "C:\\Users\\Yashika\\source\\repos\\ShoppingCart\\CartManager\\CartManager.csproj": {
-              "projectPath": "C:\\Users\\Yashika\\source\\repos\\ShoppingCart\\CartManager\\CartManager.csproj"
+            "C:\\Users\\Yashika\\gitRepo\\shopping-\\API\\CartManager\\CartManager.csproj": {
+              "projectPath": "C:\\Users\\Yashika\\gitRepo\\shopping-\\API\\CartManager\\CartManager.csproj"
             }
           }
         }
