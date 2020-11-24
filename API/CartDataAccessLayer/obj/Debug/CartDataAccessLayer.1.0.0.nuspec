@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CartDataAccessLayer</id>
+    <version>1.0.0</version>
+    <authors>CartDataAccessLayer</authors>
+    <owners>CartDataAccessLayer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.EntityFrameworkCore" version="3.1.9" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Yashika\source\repos\ShoppingCart\CartDataAccessLayer\bin\Debug\netcoreapp3.1\CartDataAccessLayer.runtimeconfig.json" target="lib\netcoreapp3.1\CartDataAccessLayer.runtimeconfig.json" />
+    <file src="C:\Users\Yashika\source\repos\ShoppingCart\CartDataAccessLayer\bin\Debug\netcoreapp3.1\CartDataAccessLayer.dll" target="lib\netcoreapp3.1\CartDataAccessLayer.dll" />
+  </files>
+</package>

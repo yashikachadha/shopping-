@@ -1,0 +1,58 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> 
+</head>
+<body>
+<div class=" text-center">
+    <br>
+    <br>
+    <p class="lead"><strong>Welcome to Register Product Page</strong></p>
+</div>
+    <div class="container align-items-center">
+        <div class="row">
+            <div class="col section-1 section-description ">
+    <div class="  form text-left col-10 offset-1 col-lg-8 offset-lg-2 div-wrapper d-flex justify-content-center align-items-center " >
+        <form class="container form-group">
+    
+            <!--<label>Enter User Id</label><br>
+            <input type=text #uid placeholder="User Id" class="form-control col-sm-6">-->
+            <label>Enter Product ID</label><br>
+            <input type=text #proId placeholder="Product Id" class="form-control col-sm-6">
+    
+            <label> Enter Product Name</label><br>
+            <input type="text" #proName placeholder="Product Name" class="form-control col-sm-6">
+
+            <label> Enter Product Price</label><br>
+            <input type="text" #proPrice placeholder="Product Price" class="form-control col-sm-6">
+
+            <label> Enter Product Brand</label><br>
+            <input type="text" #proBrand placeholder="Product Brand" class="form-control col-sm-6">
+
+            <label>  Select Product Category</label><br>
+            <select #cate >
+                <option>Mobile</option>
+                <option>Clothes</option>
+                <option>Books</option>
+                <option>Sports</option>
+                <option>Laptops</option>
+            </select>
+<br>
+
+            <!--<button type="submit" (click)="radioGender(gender.value)">Submit gender</button>-->
+
+              <label>Enter Quantity</label>
+              <input type="text" #qty placeholder="Quantity" class="form-control col-sm-6">
+    <br>
+            <button type="submit" class="btn btn-success" (click)="register(proId.value,proName.value,proPrice.value,proBrand.value,cate.value,qty.value)">Register</button>
+     
+           
+        </form>
+    </div>
+</div></div>
+
+
+</div>
+{{newProduct?.productCategory}}
+<h2>{{myresult?.result}}</h2>
+</body>
+</html>

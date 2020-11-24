@@ -1,0 +1,60 @@
+<div class="container text-center">
+    <br>
+    <br>
+    <p class="lead"><strong>Welcome to Register page</strong></p>
+
+    <div class=" container form text-left" >
+        <form class="container form-group">
+    
+            <!--<label>Enter User Id</label><br>
+            <input type=text #uid placeholder="User Id" class="form-control col-sm-6">-->
+            <label>Enter User Name</label><br>
+            <input type=text #uname placeholder="Name" class="form-control col-sm-6">
+    
+            <label> Enter Password</label><br>
+            <input type="Password" #pwd placeholder="Password" class="form-control col-sm-6">
+
+            <label> Confirm Password</label><br>
+            <input type="Password" #cpwd placeholder="Confirm Password" class="form-control col-sm-6">
+
+            <label> Enter Address</label><br>
+            <input type="text" #add placeholder="Address" class="form-control col-sm-6">
+
+            <label>  Gender</label><br>
+
+            <input type="radio" ng-model id="male" name="gender" value="male" (click)="radioGender('Male')">
+            <label for="male">Male</label><br>
+            
+            <input type="radio" ng-model id="female" name="gender" value="female" (click)="radioGender('Female')" >
+            <label for="female">Female</label><br>
+            
+            <input type="radio" ng-model id="other" name="gender" value="other" (click)="radioGender('Other')">
+            <label for="other">Other</label><br>
+            
+            <!--<button type="submit" (click)="radioGender(gender.value)">Submit gender</button>-->
+
+              <label>Enter Phone Number</label>
+              <input type="text" #phn placeholder="Phone Number" class="form-control col-sm-6">
+    <br>
+            <button type="submit" class="btn btn-success" (click)="register(uname.value,pwd.value,cpwd.value,add.value,phn.value)">Register</button>
+     
+           
+        </form>
+    </div>
+
+    <div>
+        Details entered
+        <ul >
+            <span>
+                <br>
+                User Name: {{newUser?.userName}}<br>
+                Password: {{newUser?.confirm}}<br>
+                Confirm: {{newUser?.password}}<br>
+                Address: {{newUser?.address}}<br>
+                Gender: {{newUser?.gender}}
+
+               </span>
+        </ul>
+    </div>
+<h5>{{print?.result}}</h5>
+</div>

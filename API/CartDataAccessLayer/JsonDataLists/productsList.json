@@ -1,0 +1,51 @@
+[
+  
+  {
+    "productId": 901,
+    "productName": "galaxy",
+    "productPrice": 89000,
+    "productBrand": "samsung",
+    "productCategory": "mobiles",
+    "Quantity": 8
+  },
+  {
+    "productId": 902,
+    "productName": "Redmi",
+    "productPrice": 19000,
+    "productBrand": "Mi",
+    "productCategory": "mobiles",
+    "Quantity": 8
+  },
+  {
+    "productId": 903,
+    "productName": "Note 7",
+    "productPrice": 29000,
+    "productBrand": "Lenovo",
+    "productCategory": "mobiles",
+    "Quantity": 8
+  },
+  {
+    "productId": 904,
+    "productName": "OnePlus 7s",
+    "productPrice": 49000,
+    "productBrand": "One Plus",
+    "productCategory": "mobiles",
+    "Quantity": 8
+  },
+  {
+    "productId": 905,
+    "productName": "galaxy",
+    "productPrice": 89000,
+    "productBrand": "samsung",
+    "productCategory": "mobiles",
+    "Quantity": 8
+  },
+  {
+    "productId": 0,
+    "productName": null,
+    "productPrice": 0,
+    "productBrand": null,
+    "productCategory": null,
+    "Quantity": 0
+  }
+]

@@ -1,0 +1,33 @@
+<div class="container text-center">
+    <br>
+    <br>
+    <p class="lead"><strong>Welcome to Login page</strong></p>
+    <div class=" container form text-left" >
+    <form class="container form-group">
+
+        <label>Enter User Id</label><br>
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input type=text #uid placeholder="User Name" class="form-control col-sm-6">
+
+        <label> Enter Password</label><br>
+        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+        <input type="Password" #pwd placeholder="Password" class="form-control col-sm-6">
+
+        <button type="submit" class="btn btn-success" (click)="checkLogin(uid.value,pwd.value)">Login</button>
+    </form>
+</div>
+
+<!--<p>{{usid}}</p>
+<p>{{result}} {{username}}</p>-->
+
+<!--<ul> this is list
+    <li *ngFor="let userdetail of userList">
+        <span>{{userdetail.userId}} </span>
+        <span>{{userdetail.userName}}</span>
+    </li>
+    
+</ul>-->
+{{result}}
+
+<h1>{{username}}</h1>
+</div>

@@ -1,0 +1,35 @@
+[
+  
+    {
+      "userId": 1001,
+      "userName": "sam",
+      "password": "ase@1234",
+      "address": "amb",
+      "gender": "male",
+      "phone": "998978"
+    },
+    {
+      "userId": 1002,
+      "userName": "ram",
+      "password": "abc@1234",
+      "address": "panchkula",
+      "gender": "male",
+      "phone": "78676798"
+    },
+    {
+      "userId": 1003,
+      "userName": "Pam",
+      "password": "ase1234",
+      "address": "chandigarh",
+      "gender": "male",
+      "phone": "47657657"
+    },
+    {
+      "userId": 1004,
+      "userName": "Shivani",
+      "password": "ase1234",
+      "address": "chandigarh",
+      "gender": "male",
+      "phone": "47657657"
+    }
+  ]
